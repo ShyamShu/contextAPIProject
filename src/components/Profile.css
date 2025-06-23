@@ -1,0 +1,29 @@
+/* Profile.css */
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  background-color: #f9fafb;
+}
+
+.message-box {
+  padding: 20px 30px;
+  font-size: 18px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.welcome {
+  background-color: #e6ffed;
+  color: #1a7f37;
+  border: 1px solid #b2f5ea;
+}
+
+.error {
+  background-color: #ffe8e8;
+  color: #b00020;
+  border: 1px solid #f8d7da;
+}
