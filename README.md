@@ -1,12 +1,17 @@
-# React + Vite
+// Step 1 :-  that is the firsat step to create context in which we create a JS file according to our need 
+// Step 2 :-  here we add any component inside it who are eliglible to access any state or data define or stored here 
+// Example = <UserContext>
+//           <Login>
+//            <Dashboard>
+//              <other component >
+//            </Dashboard>
+//           </Login>
+//           </UserContext>
+// All of them can access value
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+// Step 3 :- we have to create a provider  (A new file of jsx type )
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+// Step 4 :- import this into mainjsx and create a tage of it anddd element inside it 
+// Step 5 :- create these component and imprt all the variables inside it according to need 
+// Example :- const { setUser } = useContext(UserContext);
+//            const { user } = useContext(UserContext);
